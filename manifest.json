@@ -1,0 +1,20 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Ulauncher Chrome Profiles",
+  "description": "Quickly open a Chrome Profile",
+  "developer_name": "Liam Power",
+  "icon": "images/google-chrome.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "chrome",
+      "type": "keyword",
+      "name": "Google Chrome (Profile)",
+      "description": "Open Google Chrome with a specific profile",
+      "default_value": "chrome"
+    }
+
+  ]
+}
